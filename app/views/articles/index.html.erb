@@ -1,0 +1,13 @@
+<div class="top-small-grey-banner">
+  <%= link_to 'WikiTim', articles_path %>
+
+</div>
+
+<div class="articles-container">
+  <% @articles.each do |article| %>
+    <div class="article-card">
+      <div class="article-title"><%= article.title %></div>
+      <div class="article-content"><%= article.content %></div>
+    </div>
+  <% end %>
+</div>

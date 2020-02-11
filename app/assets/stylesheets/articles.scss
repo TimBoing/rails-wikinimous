@@ -1,0 +1,58 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.body {
+  margin: 0;
+}
+
+.top-small-grey-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(220, 220, 220);
+  margin-top: 0;
+  width: 100vw;
+  height: 8vh;
+
+  a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: light;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    margin: 10px;
+  }
+}
+
+.articles-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+
+  .article-card {
+    border: 1px solid rgb(220, 220, 220);
+    width: 70vw;
+    height: 80px;
+    margin: 5px;
+    border-radius: 4px;
+background: linear-gradient(145deg, #dddddd, #ffffff);
+box-shadow:  24px 24px 37px #a2a2a2,
+             -24px -24px 37px #ffffff;
+
+
+    .article-title {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      margin:10px;
+    }
+
+    .article-content {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: lighter;
+      margin:10px;
+
+    }
+  }
+}
